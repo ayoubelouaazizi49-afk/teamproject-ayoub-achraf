@@ -107,3 +107,100 @@
 .flesh{
     color: gray;
 }
+
+/* todo section 2 */
+.secondSectionfotherDiv{
+    display: flex;
+    gap: 50px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+/* ? div 1 */
+.secondSectionFirstdiv{
+    background-color: white;
+border: 1px gray solid;
+    width: 300px;
+    /* height: 400px; */
+    border-radius: 10px;
+}
+.secondSectionPic{
+    /* height: 200px; */
+    height: 300px;
+    width: 100%;
+    border-bottom:1px gray solid ;
+}
+.liftFlech{
+    background-color: rgb(223, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 20px;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 70px;
+}
+.secondSectionFirstdiv2{
+    padding: 15px 10px;
+}
+.Ceramic{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom:10px ;
+}
+.priceOne{
+    font-size: 20px;
+    font-weight: bolder;
+    color: green;
+    padding-top:20px ;
+}
+.spanPrice{
+    color: gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* ? div 2 */
+.secondSectionPic2{
+    height: 300px;
+    border-bottom: 1px solid gray;
+    width:100%;
+}
+
+.sale{
+    border: 1px gray solid;
+    width: 30px;
+    padding: 2px 15px;
+    border-radius: 12px;
+    position: relative;
+    top: -300px;
+    left: 5px;
+     font-weight: bold;
+}
+/* ? div 3 */
+.sale2{
+    border: 1px green solid;
+    width: 30px;
+    padding: 2px 15px;
+    border-radius: 12px;
+    position: relative;
+    top: -300px;
+    left: 5px;
+    color: green;
+    font-weight: bold;
+    background-color: rgb(216, 235, 216);
+}
+/* ? div 4 */
+.liftFlech2{ 
+    background-color: rgb(223, 222, 222);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 20px;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 80px;
+    left: 240px;
+} 
