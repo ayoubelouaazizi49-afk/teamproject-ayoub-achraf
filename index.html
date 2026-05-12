@@ -1,13 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="public/css/app.css">
+    <script src="https://kit.fontawesome.com/a7999296b9.js" crossorigin="anonymous"></script>
 </head>
-<body>
-     <main>
+
+<body class="theBody">
+    <!-- ! this  is the header -->
+    <header class="HeaderContent">
+        <!-- ? nav 1 -->
+        <nav class="firstNav">
+            <div class="firstNavDivFother">
+                <div class="firstNavDivShild">
+                    <i class="fa-regular fa-user firstNavIcons"></i>
+                    <p><a class="firstNavLinks" href="">Find a Store</a></p>
+                </div>
+                <div class="firstNavDivShild">
+                    <i class="fa-regular fa-headphones firstNavIcons"></i>
+                    <p> <a class="firstNavLinks" href="">support</a></p>
+                </div>
+            </div>
+            <div>
+                <p class="firstNavPara">Free delivery on orders over $75</p>
+            </div>
+        </nav>
+        <!-- ? nav 2 -->
+        <nav class="secondNav">
+            <div class="secondNavDiv1">
+                <i class="fa-solid fa-cart-shopping ShopWiseIcon"></i>
+                <p class="ShopWise">ShopWise</p>
+            </div>
+            <div class="secondNavDiv2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="secondNavDiv2searchBar" type="text"
+                    placeholder="Search for products, brands, and more ..." name="" id="">
+                <button class="secondNavDiv2BTN" type="button">search</button>
+            </div>
+            <div class=" secondNavDiv3">
+                <i class="fa-regular fa-circle-user"></i>
+                <i class="fa-solid fa-heart"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+
+        </nav>
+        <!-- ? nav 3 -->
+        <nav class="thirdNav">
+            <p> <a class="thirdNavlinks" href="">Home</a></p>
+            <p> <a class="thirdNavlinks" href=""> About</a></p>
+            <p> <a class="thirdNavlinks" href="">Category</a></p>
+            <p> <a class="thirdNavlinks" href="">Product Details</a></p>
+            <p> <a class="thirdNavlinks" href=""> Cart</a></p>
+            <p> <a class="thirdNavlinks" href="">Checkout</a></p>
+            <p> <a class="thirdNavlinks" href="">Dropdown</a><i class="fa-solid fa-angle-down flesh"></i></p>
+
+            <p> <a class="thirdNavlinks" href="">Megamenu 1 </a><i class="fa-solid fa-angle-down flesh"></i></p>
+
+            <p> <a class="thirdNavlinks" href="">Megamenu 2</a><i class="fa-solid fa-angle-down flesh"></i></p>
+
+            <p> <a class="thirdNavlinks" href="">Contact</a></p>
+        </nav>
+    </header>
+    <!--! thi is the main -->
+    <main>
         <!-- !section1 -->
         <section class="section1">
             <!-- ! section1div1- -->
@@ -57,74 +115,76 @@
             <!-- !div2 -->
             <div class="section1div2">
                 <!-- *card1 -->
-                <div class="section1div1-2">
-                    <div class="section1div2-2">
-                        <button class="section1button1-2">
-                            <h4>Best Seller</h4>
-                        </button>
-                        <div>
-                            <img class="section1div3-2" src="./public/images/image-cartable.png" alt="">
-                        </div>
+                <!-- <div class="section12card"> -->
+                <div class="section1-1-1card">
+                    <div class="section1div1-2">
 
+                        <div class="section1div2-2">
+                            <button class="section1button1-2">
+                                <h4>Best Seller</h4>
+                            </button>
+                            <div>
+                                <img class="section1div3-2" src="./public/images/image-cartable.png" alt="">
+                            </div>
+
+                        </div>
+                        <div class="section1div4-2">
+                            <p>Precision Audio Hub</p>
+                            <div class="section1div5-2-2">
+                                <p class="p1div2">$212 </p>
+                                <p class="p2div2">$299</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="section1div4-2">
-                        <p>Precision Audio Hub</p>
-                        <div class="section1div5-2">
-                            <p class="p1div2">$212 </p>
-                            <p class="p2div2">$299</p>
+                    <!-- *card2 -->
+                    <div class="section1div1-2">
+                        <div class="section1div2-2">
+                            <button class="section1button1-2">
+                                <h4>Trending Now</h4>
+                            </button>
+                            <div>
+                                <img class="section1div3-2glases" src="./public/images/glases.webp" alt="">
+                            </div>
+
+                        </div>
+                        <div class="section1div4-2">
+                            <p>Smart Wearable Pro</p>
+                            <div class="section1div5-2-2">
+                                <p class="p1div2">$159</p>
+                                <p class="p2div2">$229</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- *card2 -->
-                <div class="section1div1-2">
-                    <div class="section1div2-2">
-                        <button class="section1button1-2">
-                            <h4>Trending Now</h4>
-                        </button>
-                        <div>
-                            <img class="section1div3-2glases" src="./public/images/glases.webp" alt="">
-                        </div>
-
-                    </div>
-                    <div class="section1div4-2">
-                        <p>Smart Wearable Pro</p>
-                        <div class="section1div5-2">
-                            <p class="p1div2">$159</p>
-                            <p class="p2div2">$229</p>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- *card3 -->
-
                 <div class="section1div5-2">
 
                     <div class="section1div6-2">
-                        <div>
-                            <button>
-                                <h4>Just Launched</h4>
-                            </button>
+                        <div class="section1button2-2">
+                            <p>Just Launched</p>
+
                         </div>
                         <div>
                             <img class="section1imagecard3" src="./public/images/tichurt.webp" alt="">
                         </div>
                     </div>
-                    <div>
-                        <div>
-                            <h2>Essential Daily Companion</h2>
+
+                    <div class="section1div8-2">
+                        <h3>Essential Daily Companion</h3>
+                        <p>
+                            Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur
+                            sed. convallis at tellus curabiur
+                        </p>
+                        <div class="section1div5-2-2">
+                            <p class="p3div2">$99</p>
+                            <p class="p4div2">$149</p>
                         </div>
-                        <div>
-                            <p>
-                                Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur
-                                sed. convallis at tellus curabiur
-                            </p>
-                        </div>
-                        <div>
-                            <p>$99</p>
-                            <p>$149</p>
-                        </div>
+
                     </div>
+
                 </div>
+            </div>
+
 
 
 
@@ -142,4 +202,5 @@
         </section>
     </main>
 </body>
+
 </html>
