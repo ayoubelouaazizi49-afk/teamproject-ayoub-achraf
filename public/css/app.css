@@ -1,0 +1,109 @@
+/* welcome */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ! body */
+.theBody{
+    background-color: rgb(232, 238, 232); 
+     width: 100vw;
+}
+/* ! this is the header */
+/* ? nav 1 */
+.firstNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    margin:10px 100px;
+}
+.firstNavDivFother{
+    display: flex;
+    gap: 35px;
+}
+.firstNavDivShild{
+    display: flex;
+    gap: 5px;
+}
+.firstNavLinks{
+    text-decoration: none;
+    color: gray;
+}
+.firstNavIcons{
+    color: gray;
+}
+.firstNavPara{
+    color: green;
+}
+/* ? nav 2 */
+.secondNav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 30px 0px;
+}
+.secondNavDiv1{
+    display: flex;
+    padding-right: 80px;
+    gap: 5px;
+    margin-top: 12px;
+}
+.ShopWise{
+    font-size: 25px;
+}
+.ShopWiseIcon{
+    color: green;
+    margin-top: 7px;
+}
+.secondNavDiv2{
+   border: 1px black solid;
+   border-radius:3px ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: gray;
+   padding: 0px 0px 0px 10px;
+}
+.secondNavDiv2searchBar{
+    padding: 10px 10px 10px 10px ;
+    width: 400px;
+    border-style: hidden;
+    margin: 5px ;
+}
+.secondNavDiv2BTN{
+    color: white;
+    background-color: green;
+    padding: 12px 30px;
+    border-radius: 5px;
+    border-style: hidden;
+    cursor: pointer;
+    margin-right: 4px;
+    
+}
+.secondNavDiv3{
+ padding-left: 80px;
+ display: flex;
+ gap: 10px;
+ margin-top: 15px;
+}
+/* ? nav 3 */
+.thirdNav{
+    display: flex;
+    background-color: white;
+    border-top: 1px gray solid;
+    padding: 30px;
+    gap: 30px;
+    padding-left: 100px;
+}
+.thirdNavlinks{
+    text-decoration: none;
+    font-weight:bold ;
+    color: gray;
+}
+.thirdNavlinks:hover{
+    color: green;
+
+}
+
+.flesh{
+    color: gray;
+}
