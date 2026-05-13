@@ -8,6 +8,8 @@
 .theBody{
     background-color: rgb(232, 238, 232); 
      width: 100%;
+     margin: 0;
+     overflow-x: hidden;
 }
 /* ! this is the header */
 /* ? nav 1 */
@@ -550,8 +552,8 @@ cursor: pointer;
 }
 .fifthSectionPara{
      font-weight: bold;
-    font-size: 20px;
-    padding-bottom: 1%;
+    font-size: 40px;
+    padding-bottom: 3%;
 
 }
 .seller{
@@ -694,4 +696,30 @@ padding: 10px;
     padding: 8px;
     border-radius: 50%;
     width: 1px;
+}
+/* todo section 7 */
+.seventhSection{
+   background-color:  rgb(17, 41, 70);
+
+}
+.seventhSectionFlash{
+    display: flex;
+    border: 1px green solid;
+    width: 13.5vw;
+    padding: 2px 5px;
+    border-radius: 15px;
+}
+.seventhSectionFirstFotherDiv{
+    background-color: rgb(43, 66, 95);
+}
+.seventhSectionFlashPara{
+    color: green;
+}
+.seventhSectionFlashPara2{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.seventhSectionFlashPara3{
+    color: gray;
 }
