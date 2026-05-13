@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 /* ! body */
 .theBody{
@@ -181,10 +182,7 @@
     gap: 10px;
     /* background-color: aqua; */
 }
-.section12card{
-    /* display: flex; */
-    /* flex-direction: column; */
-} 
+
 .section1div1-2{
     border: 1px solid black;
     width: 18%;
@@ -536,6 +534,164 @@ cursor: pointer;
     padding-left: 20px;
 }
 
+/* todo section 5 */
+.FifthSection{
+    background-color: white;
+    padding: 5%;
+}
+.fifthSectionFirstFotherDiv{
+    text-align: center;
 
-/* ************************************************************ */
+}
+.bestSeller{
+    border-bottom: 3px solid gray;
+    width: 20%;
    
+}
+.fifthSectionPara{
+     font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 1%;
+
+}
+.seller{
+    border-bottom:3px green solid ;
+}
+.fifthSectionFirstFotherDiv2{
+    display: flex;
+    gap: 5%;
+    padding-top: 60px;
+}
+/* ? section 5 card 1 */
+.fifthSectionFirstCard{
+    border: 1px black solid;
+    height: 65vh;
+    width: 18vw;
+    border-radius: 5px;
+}
+.fifthSectionFirstCardPIC1{
+    height: 30vh;
+    width: 15vw;
+}
+.limitedEdition{
+    color: green;
+    background-color: rgb(225, 239, 239);
+    border: 1px solid green;
+    width:6.5vw;
+    border-radius: 15px;    
+    padding: 3px;
+    margin: 5px;
+}
+.fifthSectionFirstCardDiv2{
+padding: 10px;
+}
+.PremiumCollectionPara{
+    color: gray;
+    font-size: 17px;
+    padding-bottom:10px ;
+}
+.PremiumCollection{
+    display: flex;
+    justify-content: space-between;
+}
+.DonecPara{
+    font-weight: bold;
+    font-size: 20px;
+}
+.cerclColer{
+    display: flex;
+    gap: 5px;
+    margin: 5px 0px;
+}
+.cerclColerBleu{
+    background-color: blue;
+    padding: 8px;
+    border-radius: 50%;
+    width: 1px;
+}
+.cerclColerGreen{
+    background-color:green;
+    padding: 8px;
+    border-radius: 50%;
+    width: 1px;
+}
+.cerclColerRed{
+    background-color: red;
+    padding: 8px;
+    border-radius: 50%;
+    width: 1px;
+}
+.fifthSectionFirstCardPrice{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px gray solid;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.medical{
+    background-color:rgb(49, 164, 154);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.fifthSectionFirstCardPricePara{
+    margin-top: 7px;
+}
+/* ? section 5 card 2 */
+.off{
+    color: red;
+    background-color: rgb(246, 228, 229);
+    border: 1px solid red;
+    width:3.5vw;
+    border-radius: 15px;    
+    padding: 3px;
+    margin: 5px;
+}
+.cerclColerBlack{
+    background-color: black;
+    padding: 8px;
+    border-radius: 50%;
+    width: 1px;
+}
+.cerclColerOrange{
+    background-color:orange;
+    padding: 8px;
+    border-radius: 50%;
+    width: 1px;
+}
+.cerclColerPurpel{
+    background-color: purple;
+    padding: 8px;
+    border-radius: 50%;
+    width: 1px;
+}
+/* ? section card 3 */
+/* ? section card 4 */
+.trending{
+    color:darkgoldenrod;
+    background-color:rgb(249, 240, 226);
+    border: 1px solid darkgoldenrod;
+    width:3.5vw;
+    border-radius: 15px;    
+    padding: 3px;
+    margin: 5px;
+
+}
+.cerclColergray{
+    background-color: gray;
+    padding: 8px;
+    border-radius: 50%;
+    width: 1px;
+}
+.cerclColerOrange{
+    background-color:orange;
+    padding: 8px;
+    border-radius: 50%;
+    width: 1px;
+}
+.cerclColerPurpel{
+    background-color: purple;
+    padding: 8px;
+    border-radius: 50%;
+    width: 1px;
+}
