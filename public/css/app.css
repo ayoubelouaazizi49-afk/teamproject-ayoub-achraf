@@ -548,7 +548,6 @@ cursor: pointer;
 .bestSeller{
     border-bottom: 3px solid gray;
     width: 20%;
-   
 }
 .fifthSectionPara{
      font-weight: bold;
@@ -697,9 +696,125 @@ padding: 10px;
     border-radius: 50%;
     width: 1px;
 }
+/* todosection6 */
+.section6{
+    /* width: 100vw;  */
+    /* margin-top: 10%; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+    
+}
+.section6div1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 70px;
+}
+.section6div2{
+display: flex;
+flex-direction: row;
+gap: 10px;
+color: rgb(13, 148, 136);
+}
+.section6div3{
+    display: flex;
+flex-direction: row;
+gap: 10px;
+}
+.section6div4{
+    display: flex;
+flex-direction: row;
+gap: 10px;
+}
+.section6div5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+
+}
+.section6div6{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color:white;
+    width: 20%;
+
+}
+.section6divbuttonimage{
+    position: relative;
+}
+.section6button1{
+background-color: rgb(13, 148, 136);
+position: absolute;
+top: 10px;
+border-radius: 5px;
+border: hidden;
+padding:5px 15px;
+margin-left: 15px;
+display: flex;
+text-align: center;
+justify-content: center;
+}
+.section6button2{
+    background-color: rgb(239, 68, 68);
+    padding: 3px 10px 3px 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: hidden;
+}
+.section6image1{
+/* background-color: red; */
+width: 100%;
+/* padding: 15px; */
+/* background-color:gray; */
+}
+.section6div7{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+.section6div8{
+    
+
+}.section6div9{
+
+}
+.section6div10{
+
+}
+.section6div11{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.praix{
+    margin-top: 10px;
+}
+.praix7{
+    text-decoration: line-through;
+    margin-top: 10px;
+}
+.section6praix2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.praix2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+
 /* todo section 7 */
 .seventhSection{
    background-color:  rgb(17, 41, 70);
+   padding: 2% 7%;
 
 }
 .seventhSectionFlash{
@@ -708,9 +823,14 @@ padding: 10px;
     width: 13.5vw;
     padding: 2px 5px;
     border-radius: 15px;
+    margin-bottom: 15px;
 }
 .seventhSectionFirstFotherDiv{
     background-color: rgb(43, 66, 95);
+    display: flex;
+    border-radius: 10px;
+    /* justify-content: space-between; */
+
 }
 .seventhSectionFlashPara{
     color: green;
@@ -719,7 +839,101 @@ padding: 10px;
     font-weight: bold;
     font-size: 20px;
     color: white;
+    padding-bottom: 15px;
 }
 .seventhSectionFlashPara3{
     color: gray;
+}
+.seventhSectionTime{
+    border:1px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 2%;
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+}
+.seventhSectionTimeDiv{
+    display: flex;
+
+}
+.seventhSectionbtn{
+    background-color:rgb(12, 133, 122);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border-style: hidden;
+}
+.hourglass{
+    color:rgb(213, 207, 207);
+    padding-bottom:6px ;
+}
+.seventhSectionbtn2{
+    background-color:white;
+    padding: 8px;
+    border-radius: 8px;
+    border-style: hidden;
+}
+.seventhSectionbtns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 3%;
+}
+.seventhSectionFlash1{
+    padding: 3%;
+}
+/* ? card 1 */
+.seventhSectionCard1{
+    border: 1px solid white;
+    width: 20%;
+    border-radius: 10px;
+}
+.seventhSectionCard1Porcentage{
+    margin: 5px;
+    background-color: rgb(13, 148, 136);
+    color: white;
+    width: 40px;
+    padding: 3px;
+    border-radius: 3px;
+}
+.Premium{
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+.seventhSectionCard1Div1{
+    background-color: rgb(32, 56, 86);
+}
+.seventhSectionCard1Div2{
+    background-color: rgb(32, 56, 86);
+    padding: 10px;
+}
+.add{
+    background-color: rgb(13, 148, 136);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.seventhSectionCards{
+    display: flex;
+    /* margin: 2%; */
+    gap: 85px;
+    margin-top: 30px;
+}
+.seventhSectionCard1Price{
+    color: gray;
+    text-decoration: line-through;
+    padding-right: 10px;
+}
+.seventhSectionCard1Price2{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+.seventhSectionCard1PricePara{
+    padding-bottom: 10px;
 }
