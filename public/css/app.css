@@ -620,15 +620,7 @@ padding: 15px;
     margin-left: 10px;
 
 }
-.section6div8{
-    
 
-}.section6div9{
-
-}
-.section6div10{
-
-}
 .section6div11{
     margin-top: 10px;
     margin-left: 15px;
@@ -651,4 +643,39 @@ padding: 15px;
     margin-top: 10px;
     
 }
+/* todo section8 */
+.section8{
+    text-align: center;
+    margin-top: 8%;
+}
+.section8h1{
+    margin-bottom:35px;
+    color: rgb(15, 33, 57);
+}
+.section8p{
+    color: gray;
+    margin-bottom: 30px;
+}
+.inputsection8{
+    padding:10px 43% 10px 30px;
+    text-align: left;
+    border: none;
+}
+.buttonsection8{
+    padding: 8px;
+    background-color: rgb(13, 148, 136);
+    border: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section8div1{
+    border: 1px solid black;
+    margin-left:30%;
+    margin-right: 30%;
+    background-color: white;
+    padding: 4px 0px 4px 0px;
+    
+}
+
+
    
